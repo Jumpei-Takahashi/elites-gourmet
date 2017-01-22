@@ -38,6 +38,11 @@ gem 'seed-fu'
 gem 'gmaps4rails'
 gem 'geocoder'
 
+# レストラン検索のための ransack、ページネーションのための kaminari
+gem 'ransack'
+gem 'kaminari'
+gem 'kaminari-bootstrap'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
