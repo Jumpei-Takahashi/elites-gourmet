@@ -43,6 +43,9 @@ gem 'ransack'
 gem 'kaminari'
 gem 'kaminari-bootstrap'
 
+# レビューを入力するための ckdeitor
+gem 'ckeditor'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

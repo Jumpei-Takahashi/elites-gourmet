@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       post 'confirm'
     end
   end
+  resources :reviews, only: [:create, :destroy]
   
   # devise_for :users
   devise_for :users, controllers: {
