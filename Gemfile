@@ -33,6 +33,11 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-line'
 
+# 初期データを投入するための seed-fu、GoogleMap表示のための gmaps4rails、geocoder
+gem 'seed-fu'
+gem 'gmaps4rails'
+gem 'geocoder'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
