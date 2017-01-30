@@ -13,8 +13,8 @@
         <div class="genres">
           <%= render 'restaurants/genre_list', restaurant: restaurant %>
         </div>
-        <div>
-          <%= truncate ( strip_tags(restaurant.restaurant_introduction)) %>
+        <div class="restaurant_introduction">
+          <%= truncate(strip_tags(restaurant.restaurant_introduction), :omission => "...") %>
         </div>
       </div>
     </div>
