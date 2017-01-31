@@ -1,7 +1,7 @@
 <%= link_to restaurant_path(restaurant) do %>
   <div class="per_restaurant">
     <div class="name">
-      <%= restaurant.name %>
+      <%= restaurant.name.truncate(10) %>
     </div>
     <div class="content clearfix">
       <div class="image">
@@ -12,6 +12,9 @@
       <div>
         <div class="genres">
           <%= render 'restaurants/genre_list', restaurant: restaurant %>
+        </div>
+        <div class="restaurant_introduction">
+          <%= truncate(strip_tags(restaurant.restaurant_introduction), :omission => "...") %>
         </div>
       </div>
     </div>

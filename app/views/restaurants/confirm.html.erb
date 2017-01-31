@@ -8,6 +8,13 @@
         <td><%= @restaurant.name %></td>
         <%= f.hidden_field :name %>
       </tr>
+      
+      <tr>
+        <th><%= f.label :restaurant_introduction %></th>
+        <td><%= raw @restaurant.restaurant_introduction %></td>
+        <%= f.hidden_field :restaurant_introduction %>
+      </tr>
+      
       <tr>
         <th><%= f.label :telephone_number %></th>
         <td><%= @restaurant.telephone_number %></td>

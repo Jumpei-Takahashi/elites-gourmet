@@ -83,6 +83,11 @@ ul.genre_list {
   .genres {
 
          }
+  .restaurant_introduction {
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+  }
        }
      }
    }
@@ -122,5 +127,8 @@ ul.genre_list {
     label {
       margin-right: 15px;
     }
+   .restaurant_introduction {
+      font-weight: bold;
+   }
   }
 }

@@ -97,6 +97,6 @@ class RestaurantsController < ApplicationController
 
   private
   def input_params
-    params.require(:restaurant).permit(:name, :telephone_number, :address, :has_private_room, :seat_count, :open_date, genre_ids: [], restaurant_images_attributes: [:id, :image, :image_cache])
+    params.require(:restaurant).permit(:name, :telephone_number, :address, :has_private_room, :seat_count, :open_date, :restaurant_introduction, genre_ids: [], restaurant_images_attributes: [:id, :image, :image_cache])
   end
 end

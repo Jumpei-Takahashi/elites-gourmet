@@ -10,6 +10,7 @@ ja:
         seat_count: '席数'
         open_date: 'オープン日'
         image: '画像'
+        restaurant_introduction: '店舗紹介'
     errors:
       messages:
         record_invalid: "バリデーションに失敗しました: %{errors}"
